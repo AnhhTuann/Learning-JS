@@ -612,6 +612,23 @@ console.log('=======================================================');
 
     console.log(jerry);
 
+    console.log('=======================================================');
 //22.node-built-in-modules
 
 //23.npm
+
+//24.JSON methods
+//1.stringify - Convert a object to a JSON string 
+//2.parse - Convert a JSON string to a object
+
+var myDog = {name: 'Den' , age : 5 , dead: false};
+var myDogString = JSON.stringify(myDog);
+
+console.log(myDogString);
+console.log('=======================================================');
+
+var myCatString = '{"name": "Den", "age": 2, "dead":true}';
+var myCat = JSON.parse(myCatString);
+
+console.log(myCat);
+console.log('=======================================================');
