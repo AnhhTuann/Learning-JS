@@ -11,3 +11,5 @@ var hello = "Hello , My name is Tuan";
 var age = 20;
 
 console.log(hello, ",I'm ", age);
+
+var name1 = "Ha";
